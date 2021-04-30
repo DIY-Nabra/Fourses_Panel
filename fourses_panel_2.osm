@@ -1,0 +1,1291 @@
+View {
+Width 6.000000000 
+Height 5.059055118 
+Margin 0.200000000 
+Mag 1.5 
+Center 143.43944m 72.41351m 
+Grid 100 100 
+Index 0 3m 
+PrintScale 0.0 
+FullWidth
+ShowHoles
+ShowNames
+ShowValues
+SolidPads
+SavedFrameString "0 39 1280 738 0 0 1280 777 " 
+PadFillColor 5898 30146 13107 
+GridColor 57344 57344 65280 
+HoleColor 55000 55000 65535 
+BackgroundColor 65535 65535 65535 
+SelectedSignalTraceColor 12345 54321 6789 
+CustomGrid "3 mm" 
+}
+
+Setup {
+Layers 2 
+TraceWidth 10 
+Spacing 10 
+SolderMaskRing 10 
+PreferImperial 
+}
+GerberOptions {
+NormalLayers yes 
+NormalLayersFlipOdd no 
+NormalLayersFlipEven no 
+PlaneLayers yes 
+PlaneLayersFlipOdd no 
+PlaneLayersFlipEven no 
+SilkLayers yes 
+SilkLayersFlipOdd no 
+SilkLayersFlipEven no 
+SolderMaskLayers yes 
+SolderMaskLayersFlipOdd no 
+SolderMaskLayersFlipEven no 
+FlattenCopperFlood no 
+DrillFile fourses_panel_2.TXT 
+Aux1File fourses_panel_2.boardoutline.ger 
+Aux2File AUX2.GBR 
+Silk1File fourses_panel_2.topsilkscreen.ger 
+Silk2File fourses_panel_2.bottomsilkscreen.ger 
+Mask1File fourses_panel_2.topsoldermask.ger 
+Mask2File fourses_panel_2.bottomsoldermask.ger 
+Layer1File fourses_panel_2.toplayer.ger 
+Layer2File fourses_panel_2.bottomlayer.ger 
+Layer3File LAYER3.GBR 
+Layer4File LAYER4.GBR 
+LayerXFile LAYER%d.GBR 
+AuxXFile AUX%d.GBR 
+}
+
+PostscriptOptions {
+NormalLayers yes 
+NormalLayersFlipOdd no 
+NormalLayersFlipEven no 
+PlaneLayers yes 
+PlaneLayersFlipOdd no 
+PlaneLayersFlipEven no 
+SilkLayers yes 
+SilkLayersFlipOdd no 
+SilkLayersFlipEven no 
+SolderMaskLayers yes 
+SolderMaskLayersFlipOdd no 
+SolderMaskLayersFlipEven no 
+}
+
+
+Type Jack {
+NameData { 50 2.97028m 2.77913m 0 }
+ValueData { 50 2.54948m 0.71158m 0 }
+Pad A { Circle 50 }
+Pin 1 { A A A -100 100 20 P }
+Pin 2 { A A A 0 100 20 P }
+Pin 3 { A A A 300 100 20 P }
+Path Silk
+{ 3.86526m 0.50671m W 10 S 10 4.22339m 0.53805m 4.57063m 0.63109m 4.89643m
+0.78302m 5.19091m 0.98921m 5.44511m 1.24341m 5.65130m 1.53788m 5.80323m
+1.86369m 5.89627m 2.21093m 5.92761m 2.56905m 5.89628m 2.92718m 5.80324m
+3.27442m 5.65131m 3.60023m 5.44512m 3.89471m 5.19092m 4.14891m 4.89644m
+4.35510m 4.57063m 4.50703m 4.22339m 4.60007m 3.86526m 4.63140m 3.50714m
+4.60007m 3.15990m 4.50703m 2.83409m 4.35510m 2.53961m 4.14891m 2.28541m
+3.89471m 2.07922m 3.60023m 1.92729m 3.27442m 1.83425m 2.92718m 1.80292m
+2.56905m 1.83426m 2.21093m 1.92730m 1.86369m 2.07923m 1.53788m 2.28542m
+1.24341m 2.53962m 0.98921m 2.83409m 0.78302m 3.15990m 0.63109m 3.50714m
+0.53805m 3.86526m 0.50671m }
+Path Silk
+{ 150 -50 W 10 S 10 300 -50 300 250 0 250 0 -50 150 -50 }
+}
+
+Type ledstar {
+NameData { 50 70 -20 0 }
+ValueData { 0 -50 0 0 }
+Pad A { Circle 60 }
+Pin a { A A A 350 0 32 P }
+Pin k { A A A -350 0 32 P }
+Path Silk
+{ 0 -100 W 10 -50 -50 0 -50 0 50 -50 50 0 100 { 0.49553m 2.49120m 0.97202m
+2.34666m 1.41115m 2.11194m 1.79606m 1.79606m 2.11194m 1.41115m 2.34666m
+0.97202m 2.49120m 0.49553m 100 0 2.49120m -0.49552m 2.34666m -0.97201m
+2.11194m -1.41114m 1.79606m -1.79605m 1.41115m -2.11193m 0.97202m -2.34665m
+0.49553m -2.49119m 0 -100 -0.49552m -2.49119m -0.97201m -2.34665m -1.41114m
+-2.11193m -1.79605m -1.79605m -2.11193m -1.41114m -2.34665m -0.97201m -2.49119m
+-0.49552m -100 0 }
+-0.49552m 2.49120m -0.97201m 2.34666m -1.41114m 2.11194m -1.79605m 1.79606m
+-2.11193m 1.41115m -2.34665m 0.97202m -2.49119m 0.49553m -100 0 }
+Path Silk
+{ -200 0 W 30 S 10 -400 150 -150 150 -150 350 0 150 150 350 150 150 400 150
+200 0 }
+Path Silk
+{ 200 0 W 30 S 10 400 -150 150 -150 150 -350 0 -150 -150 -350 -150 -150 -400
+-150 -200 0 }
+Path Silk
+{ -400 100 W 10 S 10 -400 -100 }
+}
+
+
+Part void { Name 12 Loc { 7.50m 3m }
+NameData { 0 7.50m 3m 0 }
+ValueData { 0 7.50m 3m 0 }
+Pad A { Circle 5m }
+Pin 12 { A A A 7.50m 3m 3.20m P }
+}
+Part void { Name 12 Loc { 144.90m 3m }
+NameData { 0 144.90m 3m 0 }
+ValueData { 0 144.90m 3m 0 }
+Pad A { Circle 5m }
+Pin 12 { A A A 144.90m 3m 3.20m P }
+}
+Part void { Name 12 Loc { 7.50m 3m }
+NameData { 0 7.50m 3m 0 }
+ValueData { 0 7.50m 3m 0 }
+Pad A { Circle 5m }
+Pin 12 { A A A 7.50m 3m 3.20m P }
+}
+Part void { Name 12 Loc { 144.90m 3m }
+NameData { 0 144.90m 3m 0 }
+ValueData { 0 144.90m 3m 0 }
+Pad A { Circle 5m }
+Pin 12 { A A A 144.90m 3m 3.20m P }
+}
+Part void { Name 13 Loc { 7.50m 125.50m }
+NameData { 0 7.50m 125.50m 0 }
+ValueData { 0 7.50m 125.50m 0 }
+Pad A { Circle 5m }
+Pin 13 { A A A 7.50m 125.50m 3.20m P }
+}
+Part void { Name 13 Loc { 7.50m 125.50m }
+NameData { 0 7.50m 125.50m 0 }
+ValueData { 0 7.50m 125.50m 0 }
+Pad A { Circle 5m }
+Pin 13 { A A A 7.50m 125.50m 3.20m P }
+}
+Part void { Name 14 Loc { 144.90m 125.50m }
+NameData { 0 144.90m 125.50m 0 }
+ValueData { 0 144.90m 125.50m 0 }
+Pad A { Circle 5m }
+Pin 14 { A A A 144.90m 125.50m 3.20m P }
+}
+Part void { Name 14 Loc { 144.90m 125.50m }
+NameData { 0 144.90m 125.50m 0 }
+ValueData { 0 144.90m 125.50m 0 }
+Pad A { Circle 5m }
+Pin 14 { A A A 144.90m 125.50m 3.20m P }
+}
+Part void { Name 15 Loc { 500 77.93m }
+NameData { 0 500 77.93m 0 }
+ValueData { 0 500 77.93m 0 }
+Pad A { Circle 9m }
+Pin 15 { A A A 500 77.93m 7.20m P }
+}
+Part void { Name 15 Loc { 500 77.93m }
+NameData { 0 500 77.93m 0 }
+ValueData { 0 500 77.93m 0 }
+Pad A { Circle 9m }
+Pin 15 { A A A 500 77.93m 7.20m P }
+}
+Part void { Name 16 Loc { 500 52.53m }
+NameData { 0 500 52.53m 0 }
+ValueData { 0 500 52.53m 0 }
+Pad A { Circle 9m }
+Pin 16 { A A A 500 52.53m 7.20m P }
+}
+Part void { Name 16 Loc { 500 52.53m }
+NameData { 0 500 52.53m 0 }
+ValueData { 0 500 52.53m 0 }
+Pad A { Circle 9m }
+Pin 16 { A A A 500 52.53m 7.20m P }
+}
+Part void { Name 17 Loc { 1500 77.93m }
+NameData { 0 1500 77.93m 0 }
+ValueData { 0 1500 77.93m 0 }
+Pad A { Circle 9m }
+Pin 17 { A A A 1500 77.93m 7.20m P }
+}
+Part void { Name 17 Loc { 1500 77.93m }
+NameData { 0 1500 77.93m 0 }
+ValueData { 0 1500 77.93m 0 }
+Pad A { Circle 9m }
+Pin 17 { A A A 1500 77.93m 7.20m P }
+}
+Part void { Name 18 Loc { 1500 27.13m }
+NameData { 0 1500 27.13m 0 }
+ValueData { 0 1500 27.13m 0 }
+Pad A { Circle 9m }
+Pin 18 { A A A 1500 27.13m 7.20m P }
+}
+Part void { Name 18 Loc { 1500 27.13m }
+NameData { 0 1500 27.13m 0 }
+ValueData { 0 1500 27.13m 0 }
+Pad A { Circle 9m }
+Pin 18 { A A A 1500 27.13m 7.20m P }
+}
+Part void { Name 19 Loc { 500 103.33m }
+NameData { 0 500 103.33m 0 }
+ValueData { 0 500 103.33m 0 }
+Pad A { Circle 9m }
+Pin 19 { A A A 500 103.33m 7.20m P }
+}
+Part void { Name 19 Loc { 500 103.33m }
+NameData { 0 500 103.33m 0 }
+ValueData { 0 500 103.33m 0 }
+Pad A { Circle 9m }
+Pin 19 { A A A 500 103.33m 7.20m P }
+}
+Part void { Name 20 Loc { 500 27.13m }
+NameData { 0 500 27.13m 0 }
+ValueData { 0 500 27.13m 0 }
+Pad A { Circle 9m }
+Pin 20 { A A A 500 27.13m 7.20m P }
+}
+Part void { Name 20 Loc { 500 27.13m }
+NameData { 0 500 27.13m 0 }
+ValueData { 0 500 27.13m 0 }
+Pad A { Circle 9m }
+Pin 20 { A A A 500 27.13m 7.20m P }
+}
+Part void { Name 21 Loc { 1500 103.33m }
+NameData { 0 1500 103.33m 0 }
+ValueData { 0 1500 103.33m 0 }
+Pad A { Circle 9m }
+Pin 21 { A A A 1500 103.33m 7.20m P }
+}
+Part void { Name 21 Loc { 1500 103.33m }
+NameData { 0 1500 103.33m 0 }
+ValueData { 0 1500 103.33m 0 }
+Pad A { Circle 9m }
+Pin 21 { A A A 1500 103.33m 7.20m P }
+}
+Part void { Name 22 Loc { 1500 52.53m }
+NameData { 0 1500 52.53m 0 }
+ValueData { 0 1500 52.53m 0 }
+Pad A { Circle 9m }
+Pin 22 { A A A 1500 52.53m 7.20m P }
+}
+Part void { Name 22 Loc { 1500 52.53m }
+NameData { 0 1500 52.53m 0 }
+ValueData { 0 1500 52.53m 0 }
+Pad A { Circle 9m }
+Pin 22 { A A A 1500 52.53m 7.20m P }
+}
+Part void { Name 23 Loc { 2500 33.48m }
+NameData { 0 2500 33.48m 0 }
+ValueData { 0 2500 33.48m 0 }
+Pad A { Circle 8m }
+Pin 23 { A A A 2500 33.48m 6.20m P }
+}
+Part void { Name 23 Loc { 3400 46.18m }
+NameData { 0 3400 46.18m 0 }
+ValueData { 0 3400 46.18m 0 }
+Pad A { Circle 8m }
+Pin 23 { A A A 3400 46.18m 6.20m P }
+}
+Part void { Name 23 Loc { 4100 46.18m }
+NameData { 0 4100 46.18m 0 }
+ValueData { 0 4100 46.18m 0 }
+Pad A { Circle 8m }
+Pin 23 { A A A 4100 46.18m 6.20m P }
+}
+Part void { Name 23 Loc { 4800 46.18m }
+NameData { 0 4800 46.18m 0 }
+ValueData { 0 4800 46.18m 0 }
+Pad A { Circle 8m }
+Pin 23 { A A A 4800 46.18m 6.20m P }
+}
+Part void { Name 23 Loc { 2500 33.48m }
+NameData { 0 2500 33.48m 0 }
+ValueData { 0 2500 33.48m 0 }
+Pad A { Circle 8m }
+Pin 23 { A A A 2500 33.48m 6.20m P }
+}
+Part void { Name 23 Loc { 3400 46.18m }
+NameData { 0 3400 46.18m 0 }
+ValueData { 0 3400 46.18m 0 }
+Pad A { Circle 8m }
+Pin 23 { A A A 3400 46.18m 6.20m P }
+}
+Part void { Name 23 Loc { 4100 46.18m }
+NameData { 0 4100 46.18m 0 }
+ValueData { 0 4100 46.18m 0 }
+Pad A { Circle 8m }
+Pin 23 { A A A 4100 46.18m 6.20m P }
+}
+Part void { Name 23 Loc { 4800 46.18m }
+NameData { 0 4800 46.18m 0 }
+ValueData { 0 4800 46.18m 0 }
+Pad A { Circle 8m }
+Pin 23 { A A A 4800 46.18m 6.20m P }
+}
+Part void { Name 24 Loc { 5300 109.68m }
+NameData { 0 5300 109.68m 0 }
+ValueData { 0 5300 109.68m 0 }
+Pad A { Circle 8m }
+Pin 24 { A A A 5300 109.68m 6.20m P }
+}
+Part void { Name 24 Loc { 5300 109.68m }
+NameData { 0 5300 109.68m 0 }
+ValueData { 0 5300 109.68m 0 }
+Pad A { Circle 8m }
+Pin 24 { A A A 5300 109.68m 6.20m P }
+}
+Part void { Name 25 Loc { 5300 58.88m }
+NameData { 0 5300 58.88m 0 }
+ValueData { 0 5300 58.88m 0 }
+Pad A { Circle 8m }
+Pin 25 { A A A 5300 58.88m 6.20m P }
+}
+Part void { Name 25 Loc { 5300 58.88m }
+NameData { 0 5300 58.88m 0 }
+ValueData { 0 5300 58.88m 0 }
+Pad A { Circle 8m }
+Pin 25 { A A A 5300 58.88m 6.20m P }
+}
+Part void { Name 26 Loc { 5300 33.48m }
+NameData { 0 5300 33.48m 0 }
+ValueData { 0 5300 33.48m 0 }
+Pad A { Circle 8m }
+Pin 26 { A A A 5300 33.48m 6.20m P }
+}
+Part void { Name 26 Loc { 5300 33.48m }
+NameData { 0 5300 33.48m 0 }
+ValueData { 0 5300 33.48m 0 }
+Pad A { Circle 8m }
+Pin 26 { A A A 5300 33.48m 6.20m P }
+}
+Part void { Name 27 Loc { 2500 58.88m }
+NameData { 0 2500 58.88m 0 }
+ValueData { 0 2500 58.88m 0 }
+Pad A { Circle 8m }
+Pin 27 { A A A 2500 58.88m 6.20m P }
+}
+Part void { Name 27 Loc { 4100 71.58m }
+NameData { 0 4100 71.58m 0 }
+ValueData { 0 4100 71.58m 0 }
+Pad A { Circle 8m }
+Pin 27 { A A A 4100 71.58m 6.20m P }
+}
+Part void { Name 27 Loc { 3400 71.58m }
+NameData { 0 3400 71.58m 0 }
+ValueData { 0 3400 71.58m 0 }
+Pad A { Circle 8m }
+Pin 27 { A A A 3400 71.58m 6.20m P }
+}
+Part void { Name 27 Loc { 4800 71.58m }
+NameData { 0 4800 71.58m 0 }
+ValueData { 0 4800 71.58m 0 }
+Pad A { Circle 8m }
+Pin 27 { A A A 4800 71.58m 6.20m P }
+}
+Part void { Name 27 Loc { 2500 58.88m }
+NameData { 0 2500 58.88m 0 }
+ValueData { 0 2500 58.88m 0 }
+Pad A { Circle 8m }
+Pin 27 { A A A 2500 58.88m 6.20m P }
+}
+Part void { Name 27 Loc { 4100 71.58m }
+NameData { 0 4100 71.58m 0 }
+ValueData { 0 4100 71.58m 0 }
+Pad A { Circle 8m }
+Pin 27 { A A A 4100 71.58m 6.20m P }
+}
+Part void { Name 27 Loc { 3400 71.58m }
+NameData { 0 3400 71.58m 0 }
+ValueData { 0 3400 71.58m 0 }
+Pad A { Circle 8m }
+Pin 27 { A A A 3400 71.58m 6.20m P }
+}
+Part void { Name 27 Loc { 4800 71.58m }
+NameData { 0 4800 71.58m 0 }
+ValueData { 0 4800 71.58m 0 }
+Pad A { Circle 8m }
+Pin 27 { A A A 4800 71.58m 6.20m P }
+}
+Part void { Name 28 Loc { 2700 71.58m }
+NameData { 0 2700 71.58m 0 }
+ValueData { 0 2700 71.58m 0 }
+Pad A { Circle 8m }
+Pin 28 { A A A 2700 71.58m 6.20m P }
+}
+Part void { Name 28 Loc { 3900 84.28m }
+NameData { 0 3900 84.28m 0 }
+ValueData { 0 3900 84.28m 0 }
+Pad A { Circle 8m }
+Pin 28 { A A A 3900 84.28m 6.20m P }
+}
+Part void { Name 28 Loc { 3200 84.28m }
+NameData { 0 3200 84.28m 0 }
+ValueData { 0 3200 84.28m 0 }
+Pad A { Circle 8m }
+Pin 28 { A A A 3200 84.28m 6.20m P }
+}
+Part void { Name 28 Loc { 4600 84.28m }
+NameData { 0 4600 84.28m 0 }
+ValueData { 0 4600 84.28m 0 }
+Pad A { Circle 8m }
+Pin 28 { A A A 4600 84.28m 6.20m P }
+}
+Part void { Name 28 Loc { 2700 71.58m }
+NameData { 0 2700 71.58m 0 }
+ValueData { 0 2700 71.58m 0 }
+Pad A { Circle 8m }
+Pin 28 { A A A 2700 71.58m 6.20m P }
+}
+Part void { Name 28 Loc { 3900 84.28m }
+NameData { 0 3900 84.28m 0 }
+ValueData { 0 3900 84.28m 0 }
+Pad A { Circle 8m }
+Pin 28 { A A A 3900 84.28m 6.20m P }
+}
+Part void { Name 28 Loc { 3200 84.28m }
+NameData { 0 3200 84.28m 0 }
+ValueData { 0 3200 84.28m 0 }
+Pad A { Circle 8m }
+Pin 28 { A A A 3200 84.28m 6.20m P }
+}
+Part void { Name 28 Loc { 4600 84.28m }
+NameData { 0 4600 84.28m 0 }
+ValueData { 0 4600 84.28m 0 }
+Pad A { Circle 8m }
+Pin 28 { A A A 4600 84.28m 6.20m P }
+}
+Part void { Name 29 Loc { 5500 96.98m }
+NameData { 0 5500 96.98m 0 }
+ValueData { 0 5500 96.98m 0 }
+Pad A { Circle 8m }
+Pin 29 { A A A 5500 96.98m 6.20m P }
+}
+Part void { Name 29 Loc { 5500 96.98m }
+NameData { 0 5500 96.98m 0 }
+ValueData { 0 5500 96.98m 0 }
+Pad A { Circle 8m }
+Pin 29 { A A A 5500 96.98m 6.20m P }
+}
+Part void { Name 30 Loc { 5500 20.78m }
+NameData { 0 5500 20.78m 0 }
+ValueData { 0 5500 20.78m 0 }
+Pad A { Circle 8m }
+Pin 30 { A A A 5500 20.78m 6.20m P }
+}
+Part void { Name 30 Loc { 5500 20.78m }
+NameData { 0 5500 20.78m 0 }
+ValueData { 0 5500 20.78m 0 }
+Pad A { Circle 8m }
+Pin 30 { A A A 5500 20.78m 6.20m P }
+}
+Part void { Name 31 Loc { 2700 20.78m }
+NameData { 0 2700 20.78m 0 }
+ValueData { 0 2700 20.78m 0 }
+Pad A { Circle 8m }
+Pin 31 { A A A 2700 20.78m 6.20m P }
+}
+Part void { Name 31 Loc { 5500 71.58m }
+NameData { 0 5500 71.58m 0 }
+ValueData { 0 5500 71.58m 0 }
+Pad A { Circle 8m }
+Pin 31 { A A A 5500 71.58m 6.20m P }
+}
+Part void { Name 31 Loc { 5300 84.28m }
+NameData { 0 5300 84.28m 0 }
+ValueData { 0 5300 84.28m 0 }
+Pad A { Circle 8m }
+Pin 31 { A A A 5300 84.28m 6.20m P }
+}
+Part void { Name 31 Loc { 2500 109.68m }
+NameData { 0 2500 109.68m 0 }
+ValueData { 0 2500 109.68m 0 }
+Pad A { Circle 8m }
+Pin 31 { A A A 2500 109.68m 6.20m P }
+}
+Part void { Name 31 Loc { 5500 46.18m }
+NameData { 0 5500 46.18m 0 }
+ValueData { 0 5500 46.18m 0 }
+Pad A { Circle 8m }
+Pin 31 { A A A 5500 46.18m 6.20m P }
+}
+Part void { Name 31 Loc { 2700 96.98m }
+NameData { 0 2700 96.98m 0 }
+ValueData { 0 2700 96.98m 0 }
+Pad A { Circle 8m }
+Pin 31 { A A A 2700 96.98m 6.20m P }
+}
+Part void { Name 31 Loc { 2500 84.28m }
+NameData { 0 2500 84.28m 0 }
+ValueData { 0 2500 84.28m 0 }
+Pad A { Circle 8m }
+Pin 31 { A A A 2500 84.28m 6.20m P }
+}
+Part void { Name 31 Loc { 2700 46.18m }
+NameData { 0 2700 46.18m 0 }
+ValueData { 0 2700 46.18m 0 }
+Pad A { Circle 8m }
+Pin 31 { A A A 2700 46.18m 6.20m P }
+}
+Part void { Name 31 Loc { 3400 20.78m }
+NameData { 0 3400 20.78m 0 }
+ValueData { 0 3400 20.78m 0 }
+Pad A { Circle 8m }
+Pin 31 { A A A 3400 20.78m 6.20m P }
+}
+Part void { Name 31 Loc { 3900 33.48m }
+NameData { 0 3900 33.48m 0 }
+ValueData { 0 3900 33.48m 0 }
+Pad A { Circle 8m }
+Pin 31 { A A A 3900 33.48m 6.20m P }
+}
+Part void { Name 31 Loc { 3900 58.88m }
+NameData { 0 3900 58.88m 0 }
+ValueData { 0 3900 58.88m 0 }
+Pad A { Circle 8m }
+Pin 31 { A A A 3900 58.88m 6.20m P }
+}
+Part void { Name 31 Loc { 4100 96.98m }
+NameData { 0 4100 96.98m 0 }
+ValueData { 0 4100 96.98m 0 }
+Pad A { Circle 8m }
+Pin 31 { A A A 4100 96.98m 6.20m P }
+}
+Part void { Name 31 Loc { 3900 109.68m }
+NameData { 0 3900 109.68m 0 }
+ValueData { 0 3900 109.68m 0 }
+Pad A { Circle 8m }
+Pin 31 { A A A 3900 109.68m 6.20m P }
+}
+Part void { Name 31 Loc { 4100 20.78m }
+NameData { 0 4100 20.78m 0 }
+ValueData { 0 4100 20.78m 0 }
+Pad A { Circle 8m }
+Pin 31 { A A A 4100 20.78m 6.20m P }
+}
+Part void { Name 31 Loc { 3200 33.48m }
+NameData { 0 3200 33.48m 0 }
+ValueData { 0 3200 33.48m 0 }
+Pad A { Circle 8m }
+Pin 31 { A A A 3200 33.48m 6.20m P }
+}
+Part void { Name 31 Loc { 3200 58.88m }
+NameData { 0 3200 58.88m 0 }
+ValueData { 0 3200 58.88m 0 }
+Pad A { Circle 8m }
+Pin 31 { A A A 3200 58.88m 6.20m P }
+}
+Part void { Name 31 Loc { 3400 96.98m }
+NameData { 0 3400 96.98m 0 }
+ValueData { 0 3400 96.98m 0 }
+Pad A { Circle 8m }
+Pin 31 { A A A 3400 96.98m 6.20m P }
+}
+Part void { Name 31 Loc { 3200 109.68m }
+NameData { 0 3200 109.68m 0 }
+ValueData { 0 3200 109.68m 0 }
+Pad A { Circle 8m }
+Pin 31 { A A A 3200 109.68m 6.20m P }
+}
+Part void { Name 31 Loc { 4800 96.98m }
+NameData { 0 4800 96.98m 0 }
+ValueData { 0 4800 96.98m 0 }
+Pad A { Circle 8m }
+Pin 31 { A A A 4800 96.98m 6.20m P }
+}
+Part void { Name 31 Loc { 4600 33.48m }
+NameData { 0 4600 33.48m 0 }
+ValueData { 0 4600 33.48m 0 }
+Pad A { Circle 8m }
+Pin 31 { A A A 4600 33.48m 6.20m P }
+}
+Part void { Name 31 Loc { 4600 58.88m }
+NameData { 0 4600 58.88m 0 }
+ValueData { 0 4600 58.88m 0 }
+Pad A { Circle 8m }
+Pin 31 { A A A 4600 58.88m 6.20m P }
+}
+Part void { Name 31 Loc { 4600 109.68m }
+NameData { 0 4600 109.68m 0 }
+ValueData { 0 4600 109.68m 0 }
+Pad A { Circle 8m }
+Pin 31 { A A A 4600 109.68m 6.20m P }
+}
+Part void { Name 31 Loc { 4800 20.78m }
+NameData { 0 4800 20.78m 0 }
+ValueData { 0 4800 20.78m 0 }
+Pad A { Circle 8m }
+Pin 31 { A A A 4800 20.78m 6.20m P }
+}
+Part void { Name 31 Loc { 2700 20.78m }
+NameData { 0 2700 20.78m 0 }
+ValueData { 0 2700 20.78m 0 }
+Pad A { Circle 8m }
+Pin 31 { A A A 2700 20.78m 6.20m P }
+}
+Part void { Name 31 Loc { 5500 71.58m }
+NameData { 0 5500 71.58m 0 }
+ValueData { 0 5500 71.58m 0 }
+Pad A { Circle 8m }
+Pin 31 { A A A 5500 71.58m 6.20m P }
+}
+Part void { Name 31 Loc { 5300 84.28m }
+NameData { 0 5300 84.28m 0 }
+ValueData { 0 5300 84.28m 0 }
+Pad A { Circle 8m }
+Pin 31 { A A A 5300 84.28m 6.20m P }
+}
+Part void { Name 31 Loc { 2500 109.68m }
+NameData { 0 2500 109.68m 0 }
+ValueData { 0 2500 109.68m 0 }
+Pad A { Circle 8m }
+Pin 31 { A A A 2500 109.68m 6.20m P }
+}
+Part void { Name 31 Loc { 5500 46.18m }
+NameData { 0 5500 46.18m 0 }
+ValueData { 0 5500 46.18m 0 }
+Pad A { Circle 8m }
+Pin 31 { A A A 5500 46.18m 6.20m P }
+}
+Part void { Name 31 Loc { 2700 96.98m }
+NameData { 0 2700 96.98m 0 }
+ValueData { 0 2700 96.98m 0 }
+Pad A { Circle 8m }
+Pin 31 { A A A 2700 96.98m 6.20m P }
+}
+Part void { Name 31 Loc { 2500 84.28m }
+NameData { 0 2500 84.28m 0 }
+ValueData { 0 2500 84.28m 0 }
+Pad A { Circle 8m }
+Pin 31 { A A A 2500 84.28m 6.20m P }
+}
+Part void { Name 31 Loc { 2700 46.18m }
+NameData { 0 2700 46.18m 0 }
+ValueData { 0 2700 46.18m 0 }
+Pad A { Circle 8m }
+Pin 31 { A A A 2700 46.18m 6.20m P }
+}
+Part void { Name 31 Loc { 3400 20.78m }
+NameData { 0 3400 20.78m 0 }
+ValueData { 0 3400 20.78m 0 }
+Pad A { Circle 8m }
+Pin 31 { A A A 3400 20.78m 6.20m P }
+}
+Part void { Name 31 Loc { 3900 33.48m }
+NameData { 0 3900 33.48m 0 }
+ValueData { 0 3900 33.48m 0 }
+Pad A { Circle 8m }
+Pin 31 { A A A 3900 33.48m 6.20m P }
+}
+Part void { Name 31 Loc { 3900 58.88m }
+NameData { 0 3900 58.88m 0 }
+ValueData { 0 3900 58.88m 0 }
+Pad A { Circle 8m }
+Pin 31 { A A A 3900 58.88m 6.20m P }
+}
+Part void { Name 31 Loc { 4100 96.98m }
+NameData { 0 4100 96.98m 0 }
+ValueData { 0 4100 96.98m 0 }
+Pad A { Circle 8m }
+Pin 31 { A A A 4100 96.98m 6.20m P }
+}
+Part void { Name 31 Loc { 3900 109.68m }
+NameData { 0 3900 109.68m 0 }
+ValueData { 0 3900 109.68m 0 }
+Pad A { Circle 8m }
+Pin 31 { A A A 3900 109.68m 6.20m P }
+}
+Part void { Name 31 Loc { 4100 20.78m }
+NameData { 0 4100 20.78m 0 }
+ValueData { 0 4100 20.78m 0 }
+Pad A { Circle 8m }
+Pin 31 { A A A 4100 20.78m 6.20m P }
+}
+Part void { Name 31 Loc { 3200 33.48m }
+NameData { 0 3200 33.48m 0 }
+ValueData { 0 3200 33.48m 0 }
+Pad A { Circle 8m }
+Pin 31 { A A A 3200 33.48m 6.20m P }
+}
+Part void { Name 31 Loc { 3200 58.88m }
+NameData { 0 3200 58.88m 0 }
+ValueData { 0 3200 58.88m 0 }
+Pad A { Circle 8m }
+Pin 31 { A A A 3200 58.88m 6.20m P }
+}
+Part void { Name 31 Loc { 3400 96.98m }
+NameData { 0 3400 96.98m 0 }
+ValueData { 0 3400 96.98m 0 }
+Pad A { Circle 8m }
+Pin 31 { A A A 3400 96.98m 6.20m P }
+}
+Part void { Name 31 Loc { 3200 109.68m }
+NameData { 0 3200 109.68m 0 }
+ValueData { 0 3200 109.68m 0 }
+Pad A { Circle 8m }
+Pin 31 { A A A 3200 109.68m 6.20m P }
+}
+Part void { Name 31 Loc { 4800 96.98m }
+NameData { 0 4800 96.98m 0 }
+ValueData { 0 4800 96.98m 0 }
+Pad A { Circle 8m }
+Pin 31 { A A A 4800 96.98m 6.20m P }
+}
+Part void { Name 31 Loc { 4600 33.48m }
+NameData { 0 4600 33.48m 0 }
+ValueData { 0 4600 33.48m 0 }
+Pad A { Circle 8m }
+Pin 31 { A A A 4600 33.48m 6.20m P }
+}
+Part void { Name 31 Loc { 4600 58.88m }
+NameData { 0 4600 58.88m 0 }
+ValueData { 0 4600 58.88m 0 }
+Pad A { Circle 8m }
+Pin 31 { A A A 4600 58.88m 6.20m P }
+}
+Part void { Name 31 Loc { 4600 109.68m }
+NameData { 0 4600 109.68m 0 }
+ValueData { 0 4600 109.68m 0 }
+Pad A { Circle 8m }
+Pin 31 { A A A 4600 109.68m 6.20m P }
+}
+Part void { Name 31 Loc { 4800 20.78m }
+NameData { 0 4800 20.78m 0 }
+ValueData { 0 4800 20.78m 0 }
+Pad A { Circle 8m }
+Pin 31 { A A A 4800 20.78m 6.20m P }
+}
+
+
+
+Layer 1 { Outer
+AnnularRing 20 VoidRing 20 SurroundWidth
+10 PathColor 56000 2000 1500 Visible
+
+}
+Layer 2 { Outer
+AnnularRing 20 VoidRing 20 SurroundWidth
+10 PathColor 0 0 64000 Visible
+
+}
+
+SilkLayer 1 { Outer
+AnnularRing 20 VoidRing 20 SurroundWidth
+10 PathColor 0 32000 4000 Visible
+
+}
+SilkLayer 2 { Outer
+AnnularRing 20 VoidRing 20 SurroundWidth
+10 PathColor 32000 40000 32000 Visible
+
+}
+
+MaskLayer 1 { Outer
+AnnularRing 20 VoidRing 20 SurroundWidth
+10 PathColor 65219 50093 2413 Visible
+
+}
+MaskLayer 2 { Outer
+AnnularRing 20 VoidRing 20 SurroundWidth
+10 PathColor 32000 40000 32000 Invisible
+
+}
+
+AuxLayer 1 { Outer
+AnnularRing 20 VoidRing 20 SurroundWidth
+10 PathColor 0 32000 4000 Visible
+
+}
+AuxLayer 2 { Outer
+AnnularRing 20 VoidRing 20 SurroundWidth
+10 PathColor 32000 40000 32000 Visible
+
+}
+
+
+PadChange { 1 0 7.50m 3m 
+Pad { Circle 5m Thermal Circle 170 } P 12-12 }
+PadChange { 1 0 144.90m 3m 
+Pad { Circle 5m Thermal Circle 170 } P 12-12 }
+PadChange { 1 0 7.50m 125.50m 
+Pad { Circle 5m Thermal Circle 170 } P 13-13 }
+PadChange { 1 0 144.90m 125.50m 
+Pad { Circle 5m Thermal Circle 170 } P 14-14 }
+PadChange { 1 0 500 77.93m 
+Pad { Circle 9m Thermal Circle 325 } P 15-15 }
+PadChange { 1 0 500 52.53m 
+Pad { Circle 9m Thermal Circle 325 } P 16-16 }
+PadChange { 1 0 1500 77.93m 
+Pad { Circle 9m Thermal Circle 325 } P 17-17 }
+PadChange { 1 0 1500 27.13m 
+Pad { Circle 9m Thermal Circle 325 } P 18-18 }
+PadChange { 1 0 500 103.33m 
+Pad { Circle 9m Thermal Circle 325 } P 19-19 }
+PadChange { 1 0 500 27.13m 
+Pad { Circle 9m Thermal Circle 325 } P 20-20 }
+PadChange { 1 0 1500 103.33m 
+Pad { Circle 9m Thermal Circle 325 } P 21-21 }
+PadChange { 1 0 1500 52.53m 
+Pad { Circle 9m Thermal Circle 325 } P 22-22 }
+PadChange { 1 0 2500 33.48m 
+Pad { Circle 8m Thermal Circle 285 } P 23-23 }
+PadChange { 1 0 3400 46.18m 
+Pad { Circle 8m Thermal Circle 285 } P 23-23 }
+PadChange { 1 0 4100 46.18m 
+Pad { Circle 8m Thermal Circle 285 } P 23-23 }
+PadChange { 1 0 4800 46.18m 
+Pad { Circle 8m Thermal Circle 285 } P 23-23 }
+PadChange { 1 0 5300 109.68m 
+Pad { Circle 8m Thermal Circle 285 } P 24-24 }
+PadChange { 1 0 5300 58.88m 
+Pad { Circle 8m Thermal Circle 285 } P 25-25 }
+PadChange { 1 0 5300 33.48m 
+Pad { Circle 8m Thermal Circle 285 } P 26-26 }
+PadChange { 1 0 2500 58.88m 
+Pad { Circle 8m Thermal Circle 285 } P 27-27 }
+PadChange { 1 0 4100 71.58m 
+Pad { Circle 8m Thermal Circle 285 } P 27-27 }
+PadChange { 1 0 3400 71.58m 
+Pad { Circle 8m Thermal Circle 285 } P 27-27 }
+PadChange { 1 0 4800 71.58m 
+Pad { Circle 8m Thermal Circle 285 } P 27-27 }
+PadChange { 1 0 2700 71.58m 
+Pad { Circle 8m Thermal Circle 285 } P 28-28 }
+PadChange { 1 0 3900 84.28m 
+Pad { Circle 8m Thermal Circle 285 } P 28-28 }
+PadChange { 1 0 3200 84.28m 
+Pad { Circle 8m Thermal Circle 285 } P 28-28 }
+PadChange { 1 0 4600 84.28m 
+Pad { Circle 8m Thermal Circle 285 } P 28-28 }
+PadChange { 1 0 5500 96.98m 
+Pad { Circle 8m Thermal Circle 285 } P 29-29 }
+PadChange { 1 -1 5500 20.78m 
+Pad { Circle 8m Thermal Circle 285 } P 30-30 }
+PadChange { 1 -1 2700 20.78m 
+Pad { Circle 8m Thermal Circle 285 } P 31-31 }
+PadChange { 1 -1 5500 71.58m 
+Pad { Circle 8m Thermal Circle 285 } P 31-31 }
+PadChange { 1 -1 5300 84.28m 
+Pad { Circle 8m Thermal Circle 285 } P 31-31 }
+PadChange { 1 -1 2500 109.68m 
+Pad { Circle 8m Thermal Circle 285 } P 31-31 }
+PadChange { 1 0 5500 46.18m 
+Pad { Circle 8m Thermal Circle 285 } P 31-31 }
+PadChange { 1 0 2700 96.98m 
+Pad { Circle 8m Thermal Circle 285 } P 31-31 }
+PadChange { 1 0 2500 84.28m 
+Pad { Circle 8m Thermal Circle 285 } P 31-31 }
+PadChange { 1 0 2700 46.18m 
+Pad { Circle 8m Thermal Circle 285 } P 31-31 }
+PadChange { 1 0 3400 20.78m 
+Pad { Circle 8m Thermal Circle 285 } P 31-31 }
+PadChange { 1 0 3900 33.48m 
+Pad { Circle 8m Thermal Circle 285 } P 31-31 }
+PadChange { 1 0 3900 58.88m 
+Pad { Circle 8m Thermal Circle 285 } P 31-31 }
+PadChange { 1 0 4100 96.98m 
+Pad { Circle 8m Thermal Circle 285 } P 31-31 }
+PadChange { 1 0 3900 109.68m 
+Pad { Circle 8m Thermal Circle 285 } P 31-31 }
+PadChange { 1 0 4100 20.78m 
+Pad { Circle 8m Thermal Circle 285 } P 31-31 }
+PadChange { 1 0 3200 33.48m 
+Pad { Circle 8m Thermal Circle 285 } P 31-31 }
+PadChange { 1 0 3200 58.88m 
+Pad { Circle 8m Thermal Circle 285 } P 31-31 }
+PadChange { 1 -1 3400 96.98m 
+Pad { Circle 8m Thermal Circle 285 } P 31-31 }
+PadChange { 1 -1 3200 109.68m 
+Pad { Circle 8m Thermal Circle 285 } P 31-31 }
+PadChange { 1 -1 4800 96.98m 
+Pad { Circle 8m Thermal Circle 285 } P 31-31 }
+PadChange { 1 -1 4600 33.48m 
+Pad { Circle 8m Thermal Circle 285 } P 31-31 }
+PadChange { 1 -1 4600 58.88m 
+Pad { Circle 8m Thermal Circle 285 } P 31-31 }
+PadChange { 1 -1 4600 109.68m 
+Pad { Circle 8m Thermal Circle 285 } P 31-31 }
+PadChange { 1 -1 4800 20.78m 
+Pad { Circle 8m Thermal Circle 285 } P 31-31 }
+PadChange { 1 -1 7.50m 3m 
+Pad { Circle 5m Thermal Circle 170 } P 12-12 }
+PadChange { 1 -1 144.90m 3m 
+Pad { Circle 5m Thermal Circle 170 } P 12-12 }
+PadChange { 1 -1 7.50m 125.50m 
+Pad { Circle 5m Thermal Circle 170 } P 13-13 }
+PadChange { 1 -1 144.90m 125.50m 
+Pad { Circle 5m Thermal Circle 170 } P 14-14 }
+PadChange { 1 -1 500 77.93m 
+Pad { Circle 9m Thermal Circle 325 } P 15-15 }
+PadChange { 1 -1 500 52.53m 
+Pad { Circle 9m Thermal Circle 325 } P 16-16 }
+PadChange { 1 -1 1500 77.93m 
+Pad { Circle 9m Thermal Circle 325 } P 17-17 }
+PadChange { 1 -1 1500 27.13m 
+Pad { Circle 9m Thermal Circle 325 } P 18-18 }
+PadChange { 1 -1 500 103.33m 
+Pad { Circle 9m Thermal Circle 325 } P 19-19 }
+PadChange { 1 -1 500 27.13m 
+Pad { Circle 9m Thermal Circle 325 } P 20-20 }
+PadChange { 1 -1 1500 103.33m 
+Pad { Circle 9m Thermal Circle 325 } P 21-21 }
+PadChange { 1 -1 1500 52.53m 
+Pad { Circle 9m Thermal Circle 325 } P 22-22 }
+PadChange { 1 -1 2500 33.48m 
+Pad { Circle 8m Thermal Circle 285 } P 23-23 }
+PadChange { 1 -1 3400 46.18m 
+Pad { Circle 8m Thermal Circle 285 } P 23-23 }
+PadChange { 1 -1 4100 46.18m 
+Pad { Circle 8m Thermal Circle 285 } P 23-23 }
+PadChange { 1 -1 4800 46.18m 
+Pad { Circle 8m Thermal Circle 285 } P 23-23 }
+PadChange { 1 -1 5300 109.68m 
+Pad { Circle 8m Thermal Circle 285 } P 24-24 }
+PadChange { 1 -1 5300 58.88m 
+Pad { Circle 8m Thermal Circle 285 } P 25-25 }
+PadChange { 1 -1 5300 33.48m 
+Pad { Circle 8m Thermal Circle 285 } P 26-26 }
+PadChange { 1 -1 2500 58.88m 
+Pad { Circle 8m Thermal Circle 285 } P 27-27 }
+PadChange { 1 -1 4100 71.58m 
+Pad { Circle 8m Thermal Circle 285 } P 27-27 }
+PadChange { 1 -1 3400 71.58m 
+Pad { Circle 8m Thermal Circle 285 } P 27-27 }
+PadChange { 1 -1 4800 71.58m 
+Pad { Circle 8m Thermal Circle 285 } P 27-27 }
+PadChange { 1 -1 2700 71.58m 
+Pad { Circle 8m Thermal Circle 285 } P 28-28 }
+PadChange { 1 -1 3900 84.28m 
+Pad { Circle 8m Thermal Circle 285 } P 28-28 }
+PadChange { 1 -1 3200 84.28m 
+Pad { Circle 8m Thermal Circle 285 } P 28-28 }
+PadChange { 1 -1 4600 84.28m 
+Pad { Circle 8m Thermal Circle 285 } P 28-28 }
+PadChange { 1 -1 5500 96.98m 
+Pad { Circle 8m Thermal Circle 285 } P 29-29 }
+PadChange { 1 0 5500 20.78m 
+Pad { Circle 8m Thermal Circle 285 } P 30-30 }
+PadChange { 1 0 2700 20.78m 
+Pad { Circle 8m Thermal Circle 285 } P 31-31 }
+PadChange { 1 0 5500 71.58m 
+Pad { Circle 8m Thermal Circle 285 } P 31-31 }
+PadChange { 1 0 5300 84.28m 
+Pad { Circle 8m Thermal Circle 285 } P 31-31 }
+PadChange { 1 0 2500 109.68m 
+Pad { Circle 8m Thermal Circle 285 } P 31-31 }
+PadChange { 1 -1 5500 46.18m 
+Pad { Circle 8m Thermal Circle 285 } P 31-31 }
+PadChange { 1 -1 2700 96.98m 
+Pad { Circle 8m Thermal Circle 285 } P 31-31 }
+PadChange { 1 -1 2500 84.28m 
+Pad { Circle 8m Thermal Circle 285 } P 31-31 }
+PadChange { 1 -1 2700 46.18m 
+Pad { Circle 8m Thermal Circle 285 } P 31-31 }
+PadChange { 1 -1 3400 20.78m 
+Pad { Circle 8m Thermal Circle 285 } P 31-31 }
+PadChange { 1 -1 3900 33.48m 
+Pad { Circle 8m Thermal Circle 285 } P 31-31 }
+PadChange { 1 -1 3900 58.88m 
+Pad { Circle 8m Thermal Circle 285 } P 31-31 }
+PadChange { 1 -1 4100 96.98m 
+Pad { Circle 8m Thermal Circle 285 } P 31-31 }
+PadChange { 1 -1 3900 109.68m 
+Pad { Circle 8m Thermal Circle 285 } P 31-31 }
+PadChange { 1 -1 4100 20.78m 
+Pad { Circle 8m Thermal Circle 285 } P 31-31 }
+PadChange { 1 -1 3200 33.48m 
+Pad { Circle 8m Thermal Circle 285 } P 31-31 }
+PadChange { 1 -1 3200 58.88m 
+Pad { Circle 8m Thermal Circle 285 } P 31-31 }
+PadChange { 1 0 3400 96.98m 
+Pad { Circle 8m Thermal Circle 285 } P 31-31 }
+PadChange { 1 0 3200 109.68m 
+Pad { Circle 8m Thermal Circle 285 } P 31-31 }
+PadChange { 1 0 4800 96.98m 
+Pad { Circle 8m Thermal Circle 285 } P 31-31 }
+PadChange { 1 0 4600 33.48m 
+Pad { Circle 8m Thermal Circle 285 } P 31-31 }
+PadChange { 1 0 4600 58.88m 
+Pad { Circle 8m Thermal Circle 285 } P 31-31 }
+PadChange { 1 0 4600 109.68m 
+Pad { Circle 8m Thermal Circle 285 } P 31-31 }
+PadChange { 1 0 4800 20.78m 
+Pad { Circle 8m Thermal Circle 285 } P 31-31 }
+
+
+
+Path S 1 { 4600 1.73m W 30 S 10 4800 1.73m 4800 11.89m }
+Path S 1 { 1400 122.38m W 30 S 10 1200 122.38m }
+Path S 1 { 4300 9.35m W 30 S 10 4300 4.27m 4400 1.73m 4500 4.27m 4500 9.35m
+4400 11.89m 4300 9.35m }
+Path S 1 { 4200 1.73m W 30 S 10 4200 9.35m 4100 11.89m 4000 9.35m 4000 1.73m
+}
+Path S 1 { 3700 11.89m W 30 S 10 3800 6.81m { 3900 6.81m }
+3700 4.27m 3800 1.73m 3900 1.73m 3900 11.89m }
+Path S 1 { 2600 127.46m W 30 S 10 2400 124.92m 2400 122.38m 2600 122.38m 2600
+119.84m 2400 117.30m }
+Path S 1 { 3100 1.73m W 30 S 10 3300 1.73m 3300 11.89m 3100 11.89m }
+Path S 1 { 2900 122.38m W 30 S 10 2700 122.38m }
+Path S 1 { 3600 11.89m W 30 S 10 3400 9.35m 3400 6.81m 3600 6.81m 3600 4.27m
+3400 1.73m }
+Path S 1 { 3000 117.30m W 30 S 10 3200 119.84m 3200 122.38m 3000 122.38m 3000
+124.92m 3200 127.46m }
+Path S 1 { 2900 127.46m W 30 S 10 2700 127.46m 2700 117.30m 2900 117.30m }
+Path S 1 { 3100 6.81m W 30 S 10 3300 6.81m }
+Path S 1 { 3000 11.89m W 30 S 10 2800 9.35m 2800 6.81m 3000 6.81m 3000 4.27m
+2800 1.73m }
+Path S 1 { 1500 11.89m W 30 S 10 1600 6.81m { 1700 6.81m }
+1500 4.27m 1600 1.73m 1700 1.73m 1700 11.89m }
+Path S 1 { 1800 127.46m W 30 S 10 1800 119.84m 1900 117.30m 2000 119.84m 2000
+127.46m }
+Path S 1 { 1500 124.92m W 30 S 10 1500 119.84m 1600 117.30m 1700 119.84m 1700
+124.92m 1600 127.46m 1500 124.92m }
+Path S 1 { 1400 127.46m W 30 S 10 1200 127.46m 1200 117.30m }
+Path S 1 { 4600 6.81m W 30 S 10 4800 6.81m }
+Path S 1 { 2100 1.73m W 30 S 10 2300 1.73m }
+Path S 1 { 2200 11.89m W 30 S 10 2200 1.73m }
+Path S 1 { 1800 11.89m W 30 S 10 1800 4.27m 1900 1.73m 2000 4.27m 2000 11.89m
+}
+Path S 1 { 4000 122.38m W 30 S 10 4200 122.38m }
+Path S 1 { 2300 117.30m W 30 S 10 2200 122.38m { 2100 122.38m }
+2300 124.92m 2200 127.46m 2100 127.46m 2100 117.30m }
+Path S 1 { 1400 6.81m W 30 S 10 1300 6.81m 1200 4.27m 1300 1.73m 1400 1.73m
+1400 11.89m }
+Path S 1 { 3800 127.46m W 30 S 10 3800 117.30m }
+Path S 1 { 3700 127.46m W 30 S 10 3900 127.46m }
+Path S 1 { 4200 117.30m W 30 S 10 4200 124.92m 4100 127.46m 4000 124.92m 4000
+117.30m }
+Path S 1 { 1800 6.81m W 30 S 10 2000 6.81m }
+Path S 1 { 4600 122.38m W 30 S 10 4700 122.38m 4800 124.92m 4700 127.46m 4600
+127.46m 4600 117.30m }
+Path S 1 { 2600 23.32m W 30 S 10 2400 23.32m }
+Path S 1 { 2600 99.52m W 30 S 10 2400 99.52m }
+Path S 1 { 2200 112.22m W 30 S 10 2300 109.68m 2200 107.14m 2400 107.14m 2600
+102.06m 2600 107.14m 2800 107.14m 2700 109.68m 2800 112.22m 2600 112.22m
+2400 117.30m 2400 112.22m 2200 112.22m }
+Path S 1 { 2200 86.82m W 30 S 10 2400 86.82m 2400 91.90m 2600 86.82m 2800 86.82m
+2700 84.28m 2800 81.74m 2600 81.74m 2600 76.66m 2400 81.74m 2200 81.74m
+2300 84.28m 2200 86.82m }
+Path S 1 { 2600 74.12m W 30 S 10 2400 74.12m }
+Path S 1 { 2200 61.42m W 30 S 10 2400 61.42m 2400 66.50m 2600 61.42m 2800 61.42m
+2700 58.88m 2800 56.34m 2600 56.34m 2600 51.26m 2400 56.34m 2200 56.34m
+2300 58.88m 2200 61.42m }
+Path S 1 { 2800 43.64m W 30 S 10 3000 43.64m }
+Path S 1 { 2200 36.02m W 30 S 10 2400 36.02m 2400 41.10m 2600 36.02m 2800 36.02m
+2700 33.48m 2800 30.94m 2600 30.94m 2600 25.86m 2400 30.94m 2200 30.94m
+2300 33.48m 2200 36.02m }
+Path S 1 { 5200 23.32m W 30 S 10 5300 20.78m 5200 18.24m 5400 13.16m 5500 15.70m
+5600 13.16m 5800 18.24m 5700 20.78m 5800 23.32m 5600 28.40m 5500 25.86m
+5400 28.40m { 5200 23.32m }
+5400 25.86m { 5300 28.40m 5200 25.86m 5000 30.94m 5100 33.48m 5000 36.02m
+}
+5600 30.94m 5500 33.48m 5600 36.02m 5400 41.10m { 5300 38.56m 5200 41.10m
+5000 36.02m }
+5400 38.56m { 5200 43.64m 5300 46.18m 5200 48.72m }
+5500 41.10m 5600 38.56m 5800 43.64m 5700 46.18m 5800 48.72m 5600 53.80m
+5500 51.26m 5400 53.80m { 5200 48.72m }
+5400 51.26m { 5300 53.80m 5200 51.26m 5000 56.34m 5100 58.88m 5000 61.42m
+}
+5600 56.34m 5500 58.88m 5600 61.42m 5400 66.50m { 5300 63.96m 5200 66.50m
+5000 61.42m }
+5400 63.96m { 5200 69.04m 5300 71.58m 5200 74.12m }
+5500 66.50m 5600 63.96m 5800 69.04m 5700 71.58m 5800 74.12m 5600 79.20m
+5500 76.66m 5400 79.20m { 5200 74.12m }
+5400 76.66m { 5300 79.20m 5200 76.66m 5000 81.74m 5100 84.28m 5000 86.82m
+}
+5600 81.74m 5500 84.28m 5600 86.82m 5400 91.90m { 5300 89.36m 5200 91.90m
+5000 86.82m }
+5400 89.36m { 5200 94.44m 5300 96.98m 5200 99.52m }
+5500 91.90m 5600 89.36m 5800 94.44m 5700 96.98m 5800 99.52m 5600 104.60m
+5500 102.06m 5400 104.60m { 5200 99.52m }
+5400 102.06m { 5300 104.60m 5200 102.06m 5000 107.14m 5100 109.68m 5000
+112.22m }
+5600 107.14m 5500 109.68m 5600 112.22m 5400 117.30m 5300 114.76m 5200 117.30m
+5000 112.22m }
+Path S 1 { 5350 90.63m W 30 S 10 5450 90.63m }
+Path S 1 { 5350 103.33m W 30 S 10 5450 103.33m }
+Path S 1 { 5350 77.93m W 30 S 10 5450 77.93m }
+Path S 1 { 5350 65.23m W 30 S 10 5450 65.23m }
+Path S 1 { 5350 52.53m W 30 S 10 5450 52.53m }
+Path S 1 { 5350 39.83m W 30 S 10 5450 39.83m }
+Path S 1 { 5350 27.13m W 30 S 10 5450 27.13m }
+Path S 1 { 2800 18.24m W 30 S 10 3000 18.24m 2900 20.78m 3000 23.32m 2800 23.32m
+2800 28.40m 2600 23.32m }
+Path S 1 { 2800 18.24m W 30 S 10 2600 13.16m 2600 18.24m 2400 18.24m 2500 20.78m
+2400 23.32m }
+Path S 1 { 2800 48.72m W 30 S 10 2800 53.80m 2600 48.72m 2400 48.72m 2500 46.18m
+2400 43.64m 2600 43.64m 2600 38.56m 2800 43.64m }
+Path S 1 { 2800 48.72m W 30 S 10 3000 48.72m 2900 46.18m 3000 43.64m }
+Path S 1 { 2800 69.04m W 30 S 10 3000 69.04m 2900 71.58m 3000 74.12m 2800 74.12m
+2800 79.20m 2600 74.12m }
+Path S 1 { 2800 69.04m W 30 S 10 2600 63.96m 2600 69.04m 2400 69.04m 2500 71.58m
+2400 74.12m }
+Path S 1 { 2800 94.44m W 30 S 10 3000 94.44m 2900 96.98m 3000 99.52m 2800 99.52m
+2800 104.60m 2600 99.52m }
+Path S 1 { 2800 94.44m W 30 S 10 2600 89.36m 2600 94.44m 2400 94.44m 2500 96.98m
+2400 99.52m }
+Path S 1 { 3450 27.13m W 30 S 10 3050 22.05m 3350 14.43m 3750 19.51m 3450 27.13m
+}
+Path S 1 { 3250 116.03m W 30 S 10 2850 110.95m 3150 103.33m 3550 108.41m 3250
+116.03m }
+Path S 1 { 3450 103.33m W 30 S 10 3050 98.25m 3350 90.63m 3750 95.71m 3450 103.33m
+}
+Path S 1 { 3250 90.63m W 30 S 10 2850 85.55m 3150 77.93m 3550 83.01m 3250 90.63m
+}
+Path S 1 { 3450 77.93m W 30 S 10 3050 72.85m 3350 65.23m 3750 70.31m 3450 77.93m
+}
+Path S 1 { 3250 65.23m W 30 S 10 2850 60.15m 3150 52.53m 3550 57.61m 3250 65.23m
+}
+Path S 1 { 3450 52.53m W 30 S 10 3050 47.45m 3350 39.83m 3750 44.91m 3450 52.53m
+}
+Path S 1 { 3250 39.83m W 30 S 10 2850 34.75m 3150 27.13m 3550 32.21m 3250 39.83m
+}
+Path S 1 { 4500 74.12m W 30 S 10 4900 66.50m 4950 77.93m }
+Path S 1 { 4500 117.30m W 30 S 10 4400 122.38m { 4300 122.38m }
+4500 124.92m 4400 127.46m 4300 127.46m 4300 117.30m }
+Path S 1 { 5100 69.04m W 30 S 10 4700 76.66m 4650 65.23m }
+Path S 1 { 4900 109.68m W 30 S 10 4300 109.68m 4600 117.30m 4600 102.06m 4900
+109.68m }
+Path S 1 { 4500 99.52m W 30 S 10 4900 91.90m 4950 103.33m }
+Path S 1 { 5100 94.44m W 30 S 10 4700 102.06m 4650 90.63m }
+Path S 1 { 4500 48.72m W 30 S 10 4900 41.10m 4950 52.53m }
+Path S 1 { 5100 43.64m W 30 S 10 4700 51.26m 4650 39.83m }
+Path S 1 { 4500 23.32m W 30 S 10 4900 15.70m 4950 27.13m }
+Path S 1 { 5100 18.24m W 30 S 10 4700 25.86m 4650 14.43m }
+Path S 1 { 4300 33.48m W 30 S 10 4900 33.48m 4600 25.86m 4600 41.10m 4300 33.48m
+}
+Path S 1 { 4300 58.88m W 30 S 10 4900 58.88m 4600 51.26m 4600 66.50m 4300 58.88m
+}
+Path S 1 { 4900 84.28m W 30 S 10 4300 84.28m 4600 91.90m 4600 76.66m 4900 84.28m
+}
+Path S 1 { 101.69948m 24.68948m W 30 S 10 4100 27.13m 105.93606m 25.33395m 106.32096m
+25.01807m 106.76009m 24.78335m 107.23658m 24.63881m 107.73211m 24.59m 4400
+24.59m 4400 22.46219m 111.72721m 22.05533m 111.62966m 21.65897m 4375 20.14500m
+110.67434m 19.24367m 110.46305m 18.89443m 110.19855m 18.58355m 110.14646m
+18.53146m 109.83558m 18.26696m 109.48634m 18.05567m 108.74647m 17.68574m
+108.41375m 17.54792m 107.34199m 17.19067m 107.15839m 17.12148m 106.88749m
+17.00726m 106.55390m 16.80108m 106.25601m 16.54601m 4100 14.43m 102.34395m
+16.22606m 101.95905m 16.54194m 101.51992m 16.77666m 101.04343m 16.92120m
+100.54790m 16.97m 3800 16.97m 3800 18.99561m 96.52822m 19.19971m 96.55280m
+19.50468m 96.65035m 19.90104m 97.09792m 21.24375m 97.23573m 21.57646m 97.60567m
+22.31634m 97.81696m 22.66558m 98.08146m 22.97646m 98.13355m 23.02855m 98.44443m
+23.29305m 98.79367m 23.50434m 99.53355m 23.87428m 99.86625m 24.01209m 4000
+24.59m }
+Path S 1 { 96.61948m 62.78948m W 30 S 10 3900 65.23m 100.85606m 63.43395m 101.24096m
+63.11807m 101.68009m 62.88335m 102.15658m 62.73881m 102.65211m 62.69m 4200
+62.69m 4200 60.56219m 106.64721m 60.15533m 106.54966m 59.75897m 4175 58.24500m
+105.59434m 57.34367m 105.38305m 56.99443m 105.11855m 56.68355m 105.06646m
+56.63146m 104.75558m 56.36696m 104.40634m 56.15567m 103.66647m 55.78574m
+103.33375m 55.64792m 102.26199m 55.29067m 102.07839m 55.22148m 101.80749m
+55.10726m 101.47390m 54.90108m 101.17601m 54.64601m 3900 52.53m 97.26395m
+54.32606m 96.87905m 54.64194m 96.43992m 54.87666m 95.96343m 55.02120m 95.46790m
+55.07m 3600 55.07m 3600 57.09561m 91.44822m 57.29971m 91.47280m 57.60468m
+91.57035m 58.00104m 92.01792m 59.34375m 92.15573m 59.67646m 92.52567m 60.41634m
+92.73696m 60.76558m 93.00146m 61.07646m 93.05355m 61.12855m 93.36443m 61.39305m
+93.71367m 61.60434m 94.45355m 61.97428m 94.78625m 62.11209m 3800 62.69m
+}
+Path S 1 { 101.91737m 75.48948m W 30 S 10 104.35789m 77.93m 106.15395m 76.13395m
+106.53885m 75.81807m 106.97798m 75.58335m 107.45447m 75.43881m 4250 75.39m
+111.97789m 75.39m 111.97789m 73.26219m 111.94510m 72.85533m 111.84755m
+72.45897m 111.34289m 70.94500m 110.89223m 70.04367m 110.68094m 69.69443m
+110.41644m 69.38355m 110.36435m 69.33146m 110.05347m 69.06696m 109.70423m
+68.85567m 108.96436m 68.48574m 108.63164m 68.34792m 107.55988m 67.99067m
+107.37628m 67.92148m 107.10538m 67.80726m 106.77179m 67.60108m 106.47390m
+67.34601m 104.35789m 65.23m 102.56184m 67.02606m 102.17694m 67.34194m 101.73781m
+67.57666m 101.26132m 67.72120m 100.76579m 67.77m 96.73789m 67.77m 96.73789m
+69.79561m 96.74611m 69.99971m 96.77069m 70.30468m 96.86824m 70.70104m 97.31581m
+72.04375m 97.45362m 72.37646m 97.82356m 73.11634m 98.03485m 73.46558m 98.29935m
+73.77646m 98.35144m 73.82855m 98.66232m 74.09305m 99.01156m 74.30434m 99.75144m
+74.67428m 100.08414m 74.81209m 101.81789m 75.39m }
+Path S 1 { 96.83737m 88.18948m W 30 S 10 99.27789m 90.63m 101.07395m 88.83395m
+101.45885m 88.51807m 101.89798m 88.28335m 102.37447m 88.13881m 4050 88.09m
+106.89789m 88.09m 106.89789m 85.96219m 106.86510m 85.55533m 106.76755m
+85.15897m 106.26289m 83.64500m 105.81223m 82.74367m 105.60094m 82.39443m
+105.33644m 82.08355m 105.28435m 82.03146m 104.97347m 81.76696m 104.62423m
+81.55567m 103.88436m 81.18574m 103.55164m 81.04792m 102.47988m 80.69067m
+102.29628m 80.62148m 102.02538m 80.50726m 101.69179m 80.30108m 101.39390m
+80.04601m 99.27789m 77.93m 97.48184m 79.72606m 97.09694m 80.04194m 96.65781m
+80.27666m 96.18132m 80.42120m 95.68579m 80.47m 91.65789m 80.47m 91.65789m
+82.49561m 91.66611m 82.69971m 91.69069m 83.00468m 91.78824m 83.40104m 92.23581m
+84.74375m 92.37362m 85.07646m 92.74356m 85.81634m 92.95485m 86.16558m 93.21935m
+86.47646m 93.27144m 86.52855m 93.58232m 86.79305m 93.93156m 87.00434m 94.67144m
+87.37428m 95.00414m 87.51209m 96.73789m 88.09m }
+Path S 1 { 101.91737m 100.88948m W 30 S 10 104.35789m 103.33m 106.15395m 101.53395m
+106.53885m 101.21807m 106.97798m 100.98335m 107.45447m 100.83881m 4250
+100.79m 111.97789m 100.79m 111.97789m 98.66219m 111.94510m 98.25533m 111.84755m
+97.85897m 111.34289m 96.34500m 110.89223m 95.44367m 110.68094m 95.09443m
+110.41644m 94.78355m 110.36435m 94.73146m 110.05347m 94.46696m 109.70423m
+94.25567m 108.96436m 93.88574m 108.63164m 93.74792m 107.55988m 93.39067m
+107.37628m 93.32148m 107.10538m 93.20726m 106.77179m 93.00108m 106.47390m
+92.74601m 104.35789m 90.63m 102.56184m 92.42606m 102.17694m 92.74194m 101.73781m
+92.97666m 101.26132m 93.12120m 100.76579m 93.17m 96.73789m 93.17m 96.73789m
+95.19561m 96.74611m 95.39971m 96.77069m 95.70468m 96.86824m 96.10104m 97.31581m
+97.44375m 97.45362m 97.77646m 97.82356m 98.51634m 98.03485m 98.86558m 98.29935m
+99.17646m 98.35144m 99.22855m 98.66232m 99.49305m 99.01156m 99.70434m 99.75144m
+100.07428m 100.08414m 100.21209m 101.81789m 100.79m }
+Path S 1 { 96.83737m 113.58948m W 30 S 10 99.27789m 116.03m 101.07395m 114.23395m
+101.45885m 113.91807m 101.89798m 113.68335m 102.37447m 113.53881m 4050
+113.49m 106.89789m 113.49m 106.89789m 111.36219m 106.86510m 110.95533m
+106.76755m 110.55897m 106.26289m 109.04500m 105.81223m 108.14367m 105.60094m
+107.79443m 105.33644m 107.48355m 105.28435m 107.43146m 104.97347m 107.16696m
+104.62423m 106.95567m 103.88436m 106.58574m 103.55164m 106.44792m 102.47988m
+106.09067m 102.29628m 106.02148m 102.02538m 105.90726m 101.69179m 105.70108m
+101.39390m 105.44601m 99.27789m 103.33m 97.48184m 105.12606m 97.09694m
+105.44194m 96.65781m 105.67666m 96.18132m 105.82120m 95.68579m 105.87m
+91.65789m 105.87m 91.65789m 107.89561m 91.66611m 108.09971m 91.69069m 108.40468m
+91.78824m 108.80104m 92.23581m 110.14375m 92.37362m 110.47646m 92.74356m
+111.21634m 92.95485m 111.56558m 93.21935m 111.87646m 93.27144m 111.92855m
+93.58232m 112.19305m 93.93156m 112.40434m 94.67144m 112.77428m 95.00414m
+112.91209m 96.73789m 113.49m }
+Path S 1 { 101.48158m 50.08948m W 30 S 10 103.92210m 52.53m 105.71816m 50.73395m
+106.10306m 50.41807m 106.54219m 50.18335m 107.01868m 50.03881m 107.51421m
+49.99m 111.54210m 49.99m 111.54210m 47.86219m 111.50931m 47.45533m 111.41176m
+47.05897m 110.90710m 45.54500m 110.45644m 44.64367m 110.24515m 44.29443m
+109.98065m 43.98355m 109.92856m 43.93146m 109.61768m 43.66696m 109.26844m
+43.45567m 108.52857m 43.08574m 108.19585m 42.94792m 107.12409m 42.59067m
+106.94049m 42.52148m 106.66959m 42.40726m 106.33600m 42.20108m 106.03811m
+41.94601m 103.92210m 39.83m 102.12605m 41.62606m 101.74115m 41.94194m 101.30202m
+42.17666m 100.82553m 42.32120m 3950 42.37m 96.30210m 42.37m 96.30210m 44.39561m
+96.31032m 44.59971m 96.33490m 44.90468m 96.43245m 45.30104m 96.88002m 46.64375m
+97.01783m 46.97646m 97.38777m 47.71634m 97.59906m 48.06558m 97.86356m 48.37646m
+97.91565m 48.42855m 98.22653m 48.69305m 98.57577m 48.90434m 99.31565m 49.27428m
+99.64835m 49.41209m 101.38210m 49.99m }
+Path S 1 { 96.61948m 37.38948m W 30 S 10 3900 39.83m 100.85606m 38.03395m 101.24096m
+37.71807m 101.68009m 37.48335m 102.15658m 37.33881m 102.65211m 37.29m 4200
+37.29m 4200 35.16219m 106.64721m 34.75533m 106.54966m 34.35897m 4175 32.84500m
+105.59434m 31.94367m 105.38305m 31.59443m 105.11855m 31.28355m 105.06646m
+31.23146m 104.75558m 30.96696m 104.40634m 30.75567m 103.66647m 30.38574m
+103.33375m 30.24792m 102.26199m 29.89067m 102.07839m 29.82148m 101.80749m
+29.70726m 101.47390m 29.50108m 101.17601m 29.24601m 3900 27.13m 97.26395m
+28.92606m 96.87905m 29.24194m 96.43992m 29.47666m 95.96343m 29.62120m 95.46790m
+29.67m 3600 29.67m 3600 31.69561m 91.44822m 31.89971m 91.47280m 32.20468m
+91.57035m 32.60104m 92.01792m 33.94375m 92.15573m 34.27646m 92.52567m 35.01634m
+92.73696m 35.36558m 93.00146m 35.67646m 93.05355m 35.72855m 93.36443m 35.99305m
+93.71367m 36.20434m 94.45355m 36.57428m 94.78625m 36.71209m 3800 37.29m
+}
+
+FloodPath M 1 { 1150 27.13m W 30 S 10 1350 32.21m 1150 30.94m 1100 37.29m 1000
+30.94m 800 36.02m 850 29.67m 650 28.40m 850 25.86m 700 20.78m 900 22.05m
+950 15.70m 1050 22.05m 1250 16.97m 1200 23.32m 1400 24.59m 1150 27.13m
+}
+FloodPath M 1 { 850 103.33m W 30 S 10 650 98.25m 850 99.52m 900 93.17m 1000
+99.52m 1200 94.44m 1150 100.79m 1350 102.06m 1150 104.60m 1300 109.68m
+1100 108.41m 1050 114.76m 950 108.41m 750 113.49m 800 107.14m 600 105.87m
+850 103.33m }
+FloodPath M 1 { 900 76.66m W 30 S 10 700 71.58m 900 72.85m 950 66.50m 1050 72.85m
+1250 67.77m 1200 74.12m 1400 75.39m 1200 77.93m 1350 83.01m 1150 81.74m
+1100 88.09m 1000 81.74m 800 86.82m 850 80.47m 650 79.20m 900 76.66m }
+FloodPath M 1 { 850 51.26m W 30 S 10 650 46.18m 850 47.45m 900 41.10m 1000 47.45m
+1200 42.37m 1150 48.72m 1350 49.99m 1150 52.53m 1300 57.61m 1100 56.34m
+1050 62.69m 950 56.34m 750 61.42m 800 55.07m 600 53.80m 850 51.26m }
+FloodPath M 2 { 1150 27.13m W 30 S 10 1350 32.21m 1150 30.94m 1100 37.29m 1000
+30.94m 800 36.02m 850 29.67m 650 28.40m 850 25.86m 700 20.78m 900 22.05m
+950 15.70m 1050 22.05m 1250 16.97m 1200 23.32m 1400 24.59m 1150 27.13m
+}
+FloodPath M 2 { 850 103.33m W 30 S 10 650 98.25m 850 99.52m 900 93.17m 1000
+99.52m 1200 94.44m 1150 100.79m 1350 102.06m 1150 104.60m 1300 109.68m
+1100 108.41m 1050 114.76m 950 108.41m 750 113.49m 800 107.14m 600 105.87m
+850 103.33m }
+FloodPath M 2 { 900 76.66m W 30 S 10 700 71.58m 900 72.85m 950 66.50m 1050 72.85m
+1250 67.77m 1200 74.12m 1400 75.39m 1200 77.93m 1350 83.01m 1150 81.74m
+1100 88.09m 1000 81.74m 800 86.82m 850 80.47m 650 79.20m 900 76.66m }
+FloodPath M 2 { 850 51.26m W 30 S 10 650 46.18m 850 47.45m 900 41.10m 1000 47.45m
+1200 42.37m 1150 48.72m 1350 49.99m 1150 52.53m 1300 57.61m 1100 56.34m
+1050 62.69m 950 56.34m 750 61.42m 800 55.07m 600 53.80m 850 51.26m }
+
+Path A 1 { 76.23664m -0.01698m W 10 S 10 152.47420m -0.01698m 152.47420m 128.52451m
+-0.00092m 128.52451m -0.00092m -0.01698m 76.23664m -0.01698m }
+
+
+End
